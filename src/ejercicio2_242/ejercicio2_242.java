@@ -103,7 +103,7 @@ System.out.println("salimos");
 			
 			String server="smtp.gmail.com";
 			String username="carmenrenca3d@gmail.com";
-			String password="Cuatro+10=14";
+			String password="------";
 			int puerto=587;
 			String remitente="carmenrenca3d@gmail.com";
 			

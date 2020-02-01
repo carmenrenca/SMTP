@@ -23,7 +23,7 @@ public class Ejemplo1POP3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String server ="pop.gmail.com", username = "carmenrenca3d@gmail.com",
-		password="Cuatro+10=14";
+		password="-------";
 		
 		int puerto =995;
 		POP3SClient pop3 = new POP3SClient(true);
@@ -34,7 +34,7 @@ public class Ejemplo1POP3 {
 			
 			System.out.println("conexion realizada al servidor POP3 "+server);
 			//iniciamos sesion 
-			
+			System.out.println(pop3.getReplyString());
 			if(!pop3.login(username, password))System.err.println("Error al hacer login");
 			else {
 				//obtenemos todos los mensajes de un array 
